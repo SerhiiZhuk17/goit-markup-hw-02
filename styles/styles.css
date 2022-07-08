@@ -15,8 +15,7 @@ body {
 }
 
 
-
-/* Header*/
+/*==============HEADER===========*/
 
 .menu-link {
     font-family: 'Roboto';
@@ -26,10 +25,100 @@ body {
     line-height: 1.29;
     letter-spacing: 0.02em;
     color: #212121;
-
 }
 
 .menu-link:hover,
 .menu-link:focus {
     color: #2196F3;
 }
+
+.logo {
+    font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        line-height: 1.19;
+        color: #000000;
+}
+
+.logo:hover,
+.logo:focus {
+    color: #2196F3;
+}
+
+.contact-mail,
+.contact-number {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    
+        color: #757575;
+}
+
+/*==============/HEADER===========*/
+
+/*==============MAIN===========*/
+
+.main-portfolio {
+
+}
+
+.main-button-list {
+
+}
+
+.main-filt-button {
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+        background: #F5F4FA;
+        border-radius: 4px;
+        cursor:pointer;
+        border-style: none;
+}
+
+
+.main-filt-button:hover,
+.main-filt-button:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.portf-items-name {
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;    
+        letter-spacing: 0.06em;
+        color: #212121;
+}
+
+.portf-items-description {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.87;    
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+
+.page-footer {
+    background: #2F303A;
+}
+
+/*==============/MAIN===========*/
+
+
+
+/*==============FOOTER===========*/
+.footer-adress {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 2;
+        letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+/*==============/FOOTER===========*/

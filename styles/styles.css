@@ -9,6 +9,9 @@
 
 }
 
+.current{
+    background-color:var(--accent-color);
+}
 
 /*main styles*/
 
@@ -23,7 +26,8 @@
 }
 
 body {
-    font-family:var(--primary-font)
+    color: var(--primary-text-color-light-theme);
+    font-family: var(--primary-font);
 }
 
 
@@ -33,29 +37,26 @@ body {
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
     letter-spacing: 0.03em;
     line-height: 1.19;
     color: #000000;
     color: var(--primary-text-color-light-theme);
 }
 
-.logo:focus {
-    color: #2196F3;
-}
-
+.logo:focus,
 .word-web {
-    color: #2196F3;
+    color:var(--accent-color);
 }
 
 .menu-link {
     font-family:var(--primary-font);
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.29;
     letter-spacing: 0.02em;
     color:var(--primary-text-color-light-theme);
+
 }
 
 .menu-link:hover,
@@ -74,7 +75,7 @@ body {
 }
 
 .contact-mail:hover,:focus {
-    color:var(--accent-color)
+    color:var(--accent-color);
 }
 .contact-number:hover,:focus {
     color:var(--accent-color);
@@ -115,18 +116,23 @@ font-weight: 900;
 }
 
 .order-button{
-    background-color: var(--accent-color);
+    background-color:var(--accent-color);
     font-weight: 700;
         font-size: 16px;
         line-height: 1.87;
-        display: flex;
-        align-items: center;
-        text-align: center;
         letter-spacing: 0.06em;
         color: #FFFFFF;
         cursor: pointer;
         border-style: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
 }
+
+.order-button:hover,
+.order-button:focus {
+    background-color: #188CE8;
+}
+
 
 .features-title{
     font-weight: 700;
@@ -227,11 +233,12 @@ font-weight: 700;
 }
 
 .portf-items-name {
+
     font-weight: 700;
         font-size: 18px;
         line-height: 2;    
         letter-spacing: 0.06em;
-        color:var(--primary-text-color-light-theme);
+        color: var(--primary-text-color-light-theme);
 }
 
 .portf-items-description {
@@ -239,7 +246,7 @@ font-weight: 700;
         font-size: 16px;
         line-height: 1.87;    
         letter-spacing: 0.03em;
-        color:var(--secondary-text-color-light-theme);
+        color: var(--secondary-text-color-light-theme);
 }
 
 
@@ -258,7 +265,6 @@ font-weight: 700;
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
     letter-spacing: 0.03em;
     line-height: 1.19;
     color: var(--primary-text-color-dark-theme);

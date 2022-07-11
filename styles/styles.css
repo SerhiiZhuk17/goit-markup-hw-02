@@ -9,8 +9,8 @@
 
 }
 
-.current{
-    background-color:var(--accent-color);
+.menu-link.current {
+    color:var(--accent-color);
 }
 
 /*main styles*/
@@ -26,21 +26,21 @@
 }
 
 body {
-    color: var(--primary-text-color-light-theme);
-    font-family: var(--primary-font);
+    color:var(--primary-text-color-light-theme);
+    font-family:var(--primary-font);
 }
 
 
 /*==============HEADER===========*/
 
 .logo {
-    font-family: var(--secondary-font);
+    font-family:var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
     letter-spacing: 0.03em;
     line-height: 1.19;
-    color: #000000;
-    color: var(--primary-text-color-light-theme);
+
+    color:var(--primary-text-color-light-theme);
 }
 
 .logo:focus,

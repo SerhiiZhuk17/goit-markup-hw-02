@@ -9,9 +9,13 @@
 
 }
 
-h1,h2,h3,h4,h5,h6,p {
+h1,h2,h3,h4,h5,h6,p,li,ul {
     margin-top: 0;
     margin-bottom: 0;
+}
+
+img {
+    display: block;
 }
 
 .menu-link.current {
@@ -53,6 +57,22 @@ body {
     color:var(--accent-color);
 }
 
+.menu {
+    display: flex;
+}
+
+.item {
+    background-color: tomato;
+}
+
+/*.menu .item:not(:last-child) {
+    margin-right: 40px;
+}*/
+
+.menu .item + .item {
+    margin-left: 40px;
+}
+
 .menu-link {
     font-family:var(--primary-font);
     font-style: normal;
@@ -61,7 +81,9 @@ body {
     line-height: 1.29;
     letter-spacing: 0.02em;
     color:var(--primary-text-color-light-theme);
-
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
 }
 
 .menu-link:hover,
